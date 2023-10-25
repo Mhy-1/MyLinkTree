@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesh | Linktree</title>
+    <!-- Favicon -->
+    <link rel="icon" style="border-radius: 50%;" href="/logo.JPG" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+
+
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+
+    </section>
+    <!--Small text-->
+
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#" target="__blank">
+        <img src="logo.JPG" alt="Profile Picture">
+    </a>
+
+
+
+    <div id="userName">
+        Mesh
+        <p style="color: var(--heading);"> Software Engineering </p>
+    </div>
+
+
+    <div class="morph">
+        <!-- <div style="--i:1s">Web developer</div>
+        <div style="--i:2s">programmer</div>
+        <div style="--i:3s">UI/UX</div>
+        <div style="--i:4s">Mobile Programmer</div>
+        <div style="--i:5s">Web developer</div>
+        <div style="--i:6s">programmer</div>
+        <div style="--i:7s">UI/UX</div>
+        <div style="--i:8s">Mobile Programmer</div> -->
+    </div>
+
+    <div class="a-txts">
+        <ul class="dynamic-txts">
+            <li><span>YouTuber</span></li>
+            <li><span>Designer</span></li>
+            <li><span>Developer</span></li>
+            <li><span>Freelancer</span></li>
+        </ul>
+    </div>
+
+
+
+    <div id="links">
+
+        <a class="link" href="https://instagram.com/gd.gp_?igshid=NzZlODBkYWE4Ng==" target="_blank">
+            <i class="fab fa-instagram">&nbsp;&nbsp;</i>Instagram
+        </a>
+        <a class="link" href="https://twitter.com/gd_gp_" target="_blank">
+            <i class="fab fa-twitter">&nbsp;&nbsp;</i>Twitter
+        </a>
+        <a class="link" href="https://t.snapchat.com/yxQLa4ba" target="_blank">
+            <i class="fab fa-snapchat">&nbsp;&nbsp;</i>SnapChat
+        </a>
+        <a class="link" href="https://tellonym.me/gd.gp" target="_blank">
+            <img class="tellonym" src="/tellonym.png" alt=""> &nbsp;Tellonym
+        </a>
+        <div class="tooltip">
+            <button onclick="myFunction()" onmouseout="outFunc()">
+            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            <i class="fab fa-discord">&nbsp;&nbsp;</i>Discord
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var copyText = "gd.gp";
+            navigator.clipboard.writeText(copyText);
+            var tooltip = document.getElementById("myTooltip");
+            tooltip.innerHTML = "Copied: " + copyText;
+        }
+
+        function outFunc() {
+            var tooltip = document.getElementById("myTooltip");
+            tooltip.innerHTML = "Copy to clipboard";
+        }
+    </script>
+</body>
+
+</html>
